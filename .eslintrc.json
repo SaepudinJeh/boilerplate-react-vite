@@ -3,13 +3,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:react/button-has-type",
-    "plugin:react/prop-types",
-    "plugin:react/require-default-props",
-    "plugin:react/no-array-index-key",
-    "plugin:react/react-in-jsx-scope",
-    "plugin:react/display-name"
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -28,11 +22,17 @@
       "version": "detect"
     }
   },
-  "plugins": ["react", "@typescript-eslint", "autofix", "react-hooks"],
+  "plugins": ["react", "autofix", "react-hooks"],
   "rules": {
     "no-console": "warn",
     "arrow-body-style": ["error", "as-needed"],
     "react-hooks/exhaustive-deps": "error",
+    "semi": "warn",
+    "react/prop-types": "warn",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/require-default-props": "error",
+    "react/display-name": "error",
     "autofix/no-unused-vars": [
       "error",
       {
