@@ -1574,6 +1574,11 @@ vite-plugin-eslint@^1.8.1:
     "@types/eslint" "^8.4.5"
     rollup "^2.77.2"
 
+vite-plugin-remove-console@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-remove-console/-/vite-plugin-remove-console-2.1.0.tgz#47f19fff9096f459f2cfc55a149a25024b691d73"
+  integrity sha512-cil+h4rX3fDnnKMt73fexMGkwRSOV08+lTAzLGTRjGyxs9Ync3fqPWxnGrngJY7LyMMt3kEKf0hNOi+1DQ0j2g==
+
 vite@^4.1.0:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.1.4.tgz#170d93bcff97e0ebc09764c053eebe130bfe6ca0"
