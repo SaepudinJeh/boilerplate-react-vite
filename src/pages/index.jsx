@@ -1,5 +1,5 @@
 export default function IndexPage() {
   return (
-    <div>Index Page</div>
+    <div className="min-h-screen bg-cyan-700 text-white w-full flex items-center justify-center">Index Page</div>
   );
 }
